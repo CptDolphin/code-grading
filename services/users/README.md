@@ -6,6 +6,9 @@ export FLASK_ENV=development
 
 ### To run first tests
 ```
+python3.6 -m venv env
+source env/bin/activate
+pip install flask==1.0.2
 python manage.py run
 ```
 

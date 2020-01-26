@@ -1,2 +1,3 @@
 __pycache__
 env
+remove_docker_images.sh

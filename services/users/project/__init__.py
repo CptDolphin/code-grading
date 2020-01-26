@@ -1,4 +1,5 @@
 from flask import Flask, jsonify
+import sys
 
 app = Flask(__name__)
 
@@ -10,3 +11,5 @@ def ping_pong():
     'status': 'success',
     'message': 'pong!'
   })
+
+print(app.config, file=sys.stderr)
